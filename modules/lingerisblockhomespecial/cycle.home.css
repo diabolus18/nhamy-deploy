@@ -1,0 +1,45 @@
+#specialpro{overflow:hidden;position:relative;#padding-bottom:30px}
+#category  #specialpro{#padding-bottom:3px}
+#category #specialpro{top: 0px;padding-top:0px;}
+.cycleElementsContainer li{display:block;float:left;min-height:240px!important;margin-right:10px;text-align:left;width:180px;position:relative}
+.cycleElementsContainer li  a.product_image{ display: block;
+    margin-bottom: 2px;
+    text-align: center;
+    width:172px;border:1px solid #f0f0f0;padding:3px;}
+.cycleElementsContainer li  h3{margin:5px 0 5px 0;max-height:30px;}	
+.cycleElementsContainer li  h3 a{color:#141414;font-weight:400;font-size:11px;}
+.cycleElementsContainer li p.manu-name{color:#a6a4a1;height:18px!important;}
+.cycleElementsContainer li p.old_price, .cycleElementsContainer li p.price_container{width:auto;float:left;margin:0!important}
+.cycleElementsContainer li p.price_container{margin-left:7px!important;}
+.cycleElementsContainer li p span{font-size:12px;font-weight:700;}
+.cycleElementsContainer li p.old_price span{color:#a6a4a1;text-decoration:line-through}
+.cycleElementsContainer li .reduction_percent {background:#ED1F79; float: left; overflow: visible; padding: 5px; position: absolute; right: 5px; top: 0px; width: 25px;}
+.cycleElementsContainer li .reduction_percent span{ color: #FFFFFF;float: left;font-family: "GothamBook";font-size: 12px;margin: 0 auto;}
+.cycleElementsContainer li .reduction_percent span.prefix{font-size:20px;font-weight:400;}
+.cycleElementsContainer li .reduction_percent span.reduction_percent_display{ font-family: "GothamBold";}
+.cycleElementsArrow{z-index:100}
+#category .cycleElementsContainer #cycle{border-bottom:1px solid #f0f0f0;padding-bottom:10px; margin: 0; }
+.cycleElementsContainer #cycle{float:left;overflow:hidden!important;position:relative;width:100%!important;z-index:1;margin:15px 0 0;}
+.cycleElementsContainer #cycle ul{overflow:hidden!important}
+.cycleElementsContainer .cycleElementsArrow {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width:34px;
+}
+.cycleElementsContainer .cycleElementsArrow a {
+    height: 16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+.cycleElementsContainer .cycleElementsArrow a#cprev {
+    background: url("../../themes/lingeris/img/bkg_cycle_prev.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    margin-right: 2px;
+}
+.cycleElementsContainer .cycleElementsArrow a#cnext {
+    background: url("../../themes/lingeris/img/bkg_cycle_next.jpg") no-repeat scroll 0 0 transparent;
+    float: right;
+}
+.cycleElementsContainer h4{width:auto;float:left;font-size:20px;padding-left:10px;}
+.cycleElementsContainer p.title_special{width:auto;float:left;margin:7px 0 0 5px!important;#margin-top:6px!important;line-height:13px;}

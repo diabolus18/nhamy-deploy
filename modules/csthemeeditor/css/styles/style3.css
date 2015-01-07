@@ -1,0 +1,6 @@
+.camera_prev, #best-sellers_block_center a.prev{
+	background-image:url("../../images/btn-prev.png");
+}
+.camera_next, #best-sellers_block_center a.next{
+	background-image:url("../../images/btn-next.png");
+}

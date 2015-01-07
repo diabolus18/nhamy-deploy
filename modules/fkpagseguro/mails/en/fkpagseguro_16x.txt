@@ -1,0 +1,21 @@
+Hello {firstname} {lastname},
+
+Your order reference {referencia} - Information for payment
+
+Thank you for shopping at our store!
+
+Your order has been processed and will be sent once we receive the payment.
+Your payment option was through PagSeguro.
+
+If you have had a problem paying for the site PagSeguro, passed down the information needed to complete your payment:
+
+:: Order reference: {reference}
+:: Order Number: {pedido}
+:: Total order: {total}
+:: Link of your purchase in PagSeguro: {link}
+
+
+You can review your order and download your invoice from the "Order history" section of your customer account by clicking "My account" on our shop.
+
+
+{shop_name}

@@ -1,0 +1,44 @@
+/* Block categories */
+#categories_block_left .tree {overflow:hidden}
+#categories_block_left .tree li {
+	border: none;
+	padding:0;
+	background: none;
+	margin-left: 0;
+	
+
+	line-height: 15px;display:block;
+}
+/*#categories_block_left .tree li.last {padding-bottom: 0}*/
+#categories_block_left .tree ul { padding:0 ;border:none;margin:0 0 0;display:block;clear:left;}
+#categories_block_left .tree li li {
+	padding: 0;
+	background: none;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 20px;
+}
+#categories_block_left .tree li li.last { padding-bottom: 0 }
+#categories_block_left .tree li li li {
+	padding-left: 15px;
+	font-size: 12px
+}
+#categories_block_left .tree a {color: #ED1F79;font-family: "Gothambook";font-size: 14px;font-weight: normal;padding: 5px 0; display:block;text-transform: none; letter-spacing: -0.015em;
+}
+#categories_block_left .tree ul a{font-family:Arial; font-size:12px; font-weight:400; color:#797979; text-transform:none; display: block; padding: 2px 0;}
+#categories_block_left .tree a:hover { text-decoration: none;color:#ED1F79;padding-left:10px; }
+#categories_block_left ul.tree a.selected {
+	color: #ED1F79;
+	font-family: "gothamBold"
+}
+#categories_block_left span.grower {
+	display: block;
+	float: right;
+	width: 8px;
+	height:7px;
+	margin: 4px 0 0!important;
+	padding: 0;cursor:pointer;  transition: all 0.3s ease 0s;background-image: url('img/less_more.png')
+}
+#categories_block_left span.CLOSE { background-position:100% 100%}
+#categories_block_left span.OPEN {background-position:0 0 }
+

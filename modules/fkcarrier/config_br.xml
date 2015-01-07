@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>fkcarrier</name>
+	<displayName><![CDATA[M&oacute;dulo FKcarrier]]></displayName>
+	<version><![CDATA[160.0.4]]></version>
+	<description><![CDATA[Oferece aos seus clientes v&aacute;rias formas de entrega dos produtos.]]></description>
+	<author><![CDATA[FokusFirst]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

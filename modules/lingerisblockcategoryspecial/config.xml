@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>lingerisblockcategoryspecial</name>
+	<displayName><![CDATA[Special Product by Category]]></displayName>
+	<version><![CDATA[1.0]]></version>
+	<description><![CDATA[Add a block displaying Special product by category in category page.]]></description>
+	<author><![CDATA[Codespot]]></author>
+	<tab><![CDATA[MyBlock]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

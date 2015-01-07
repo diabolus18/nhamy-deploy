@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<setting>
+<load_css_file>style2</load_css_file>
+<g_st_b_img1_b_img>1366022037i-footer-first2.png</g_st_b_img1_b_img>
+<g_st_b_img2_b_img>1366022037i-footer-middle2.png</g_st_b_img2_b_img>
+<g_st_b_img3_b_img>1366022037i-footer-last2.png</g_st_b_img3_b_img>
+<bt2_b_img>1366022079btn-color2.png</bt2_b_img>
+<bg_mode>wide_mode</bg_mode>
+<column>2_column_left</column>
+<column_class>grid_6,grid_18(3)</column_class>
+<g_st_b_img1_b_pattern>up_load_image_staticblock1</g_st_b_img1_b_pattern>
+<g_st_b_img2_b_pattern>up_load_image_staticblock2</g_st_b_img2_b_pattern>
+<g_st_b_img3_b_pattern>up_load_image_staticblock3</g_st_b_img3_b_pattern>
+<g_link_color_hover>#a7b640</g_link_color_hover>
+<g_bm1_b_color>#e5423e</g_bm1_b_color>
+<g_bm1_sh_color>#ae2926</g_bm1_sh_color>
+<g_bm2_b_color>#a7b640</g_bm2_b_color>
+<g_bm2_sh_color>#7e892f</g_bm2_sh_color>
+<g_bm3_b_color>#f2c510</g_bm3_b_color>
+<g_bm3_sh_color>#c09c0e</g_bm3_sh_color>
+<g_st_b_color1>#e5423e</g_st_b_color1>
+<g_st_b_color2>#a7b640</g_st_b_color2>
+<g_st_t_color1>#ffffff</g_st_t_color1>
+<g_st_t_color2>#ffffff</g_st_t_color2>
+<g_st_t_color3>#a7b640</g_st_t_color3>
+<g_st_t_color4>#e5423e</g_st_t_color4>
+<g_st_t_color5>#a7b640</g_st_t_color5>
+<g_st_t_color6>#f2c510</g_st_t_color6>
+<g_bm_t_fstyle_1>Source Sans Pro</g_bm_t_fstyle_1>
+<g_st_t_fstyle_1>Source Sans Pro</g_st_t_fstyle_1>
+<s_color_1>#a7b640</s_color_1>
+<bt_b_pattern>up_load_image_button</bt_b_pattern>
+</setting>

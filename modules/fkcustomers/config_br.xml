@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>fkcustomers</name>
+	<displayName><![CDATA[M&oacute;dulo FKcustomers]]></displayName>
+	<version><![CDATA[154.0.3]]></version>
+	<description><![CDATA[Includes new fields and automate data entry into the database of customers.]]></description>
+	<author><![CDATA[FokusFirst]]></author>
+	<tab><![CDATA[Others]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

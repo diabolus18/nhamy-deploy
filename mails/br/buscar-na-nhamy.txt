@@ -1,0 +1,22 @@
+﻿Olá {firstname} {lastname},
+
+Seu pedido {order_name} está pronto para buscar na {shop_name}.
+
+ 
+Endereço:
+Rua Otávio Tarquino, 410, sala 608
+Ed. Via Light Metropolitan
+Centro - Nova Iguaçu - RJ
+CEP: 26.215-342
+
+Agende pelo telefone: (21) 3582-8186 ou pelo e-mail sac@nhamy.com.br
+
+Horário de atendimento: Segunda a Sexta-feira de 09h as 18h
+
+
+
+Entrando em minha conta, você poderá rever seu pedido.
+
+
+{shop_name} - {shop_url}
+

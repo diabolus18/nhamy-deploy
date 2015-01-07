@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mensagem de {shop_name}</title>
+  </head>
+  <body>
+    <table style="font-family: Verdana,sans-serif; font-size: 11px; color: #374953; width: 550px;">
+      <tbody>
+        <tr>
+          <td align="left"><a title="{shop_name}" href="{shop_url}"><img style="border: none;" src="{shop_logo}" alt="{shop_name}"></a></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left">Olá <strong style="color: {color};">{firstname} {lastname}</strong>,</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td> 
+        </tr>
+        <tr>
+          <td style="background-color: {color}; color: #fff; font-size: 12px; font-weight: bold; padding: 0.5em 1em;" align="left">Seu pedido referência {referencia} - Informações para pagamento</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left">Obrigado por comprar em nossa loja!
+              <br><br>
+              Seu pedido foi processado e será <strong>enviado assim que recebermos o pagamento</strong>.
+              <br>
+              Sua opção de pagamento foi através do PagSeguro.
+              <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              Caso tenha tido algum problema para pagamento no site do PagSeguro,
+              passamos abaixo as informações necessárias para conclusão do seu pagamento:
+              <br><br>
+              :: Referência do pedido: <strong>{referencia}</strong>
+              <br>
+              :: Número do pedido: <strong>{pedido}</strong>
+              <br>
+              :: Valor total do seu pedido: <strong>{total}</strong>
+              <br>
+              :: PagSeguro: <a href="{link}"> Clique para prosseguir com seu pagamento no site do PagSeguro.</a>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td style="font-size: 10px; border-top: 1px solid #D9DADE;" align="center"><a style="color: {color}; font-weight: bold; text-decoration: none;"
+              href="{shop_url}">{shop_name}</a><a style="text-decoration: none; color: #374953;"></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

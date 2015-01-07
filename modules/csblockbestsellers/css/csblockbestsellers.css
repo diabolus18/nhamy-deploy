@@ -1,0 +1,41 @@
+/* Block best sellers */
+#best-sellers_block_center{padding:0;position:relative; background:url(../img/bg.jpg) left bottom; height:350px; margin-bottom:0}
+#best-sellers_block_center h4.title_block{padding:0 0 0 15px;margin-right:3px;font:700 18px/37px "Lato",Arial, Verdana, sans-serif;background:#fbc01f;color:#fff;text-transform:uppercase; box-shadow:3px 3px 0 #dba40d; -moz-box-shadow:3px 3px 0 #dba40d; -webkit-box-shadow:3px 3px 0 #dba40d; min-height:37px;
+}
+#best-sellers_block_center .block_content{padding-top:10px;padding-bottom:28px}
+#best-sellers_block_center .caroufredsel_wrapper{overflow:hidden;}
+#best-sellers_block_center li{float:left;width:205px;margin:0 20px;}
+#best-sellers_block_center li a.product_image {
+	display:block;
+	text-decoration:none;text-align:left;padding-bottom:10px;
+}
+#best-sellers_block_center li a.product_image img{max-width:100%}
+
+#best-sellers_block_center a.btn{top:15px}
+#best-sellers_block_center a.next{background:url("../img/btn-next.png") no-repeat}
+#best-sellers_block_center a.prev{background:url("../img/btn-prev.png") no-repeat}
+#best-sellers_block_center li h3,#best-sellers_block_right li h3{display:block}
+#best-sellers_block_center li h3 a,#best-sellers_block_right li h3 a{color:#1f1f1f;font:700 12px/15px Arial ;text-transform:none}
+#best-sellers_block_center li h3 a:hover,#best-sellers_block_right li h3 a:hover{color:#af0600;text-decoration:none}
+
+#best-sellers_block_right ul {margin-bottom:5px}
+#best-sellers_block_right li {
+	padding:10px 0;display:block;float:none;
+}
+#best-sellers_block_right li.last_item {border:none}
+#best-sellers_block_right li a.content_img {
+	float:left;margin-right:10px;
+	text-decoration:none;
+}
+.price{color:#f64e2c;font:700 13px/15px "Georgia",Arial, Verdana, sans-serif;}
+#best-sellers_block_right li span.number {
+	display:none;
+	float:left;
+	margin-top:6px;
+	width:20px;
+	font-weight:bold;
+	font-size:18px;
+	color:#fff;
+	text-align:center
+}
+#best-sellers_block_right .lnk{text-align:right;margin-bottom:0}

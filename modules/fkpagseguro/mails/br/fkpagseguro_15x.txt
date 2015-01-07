@@ -1,0 +1,21 @@
+Olá {firstname} {lastname},
+
+Seu pedido referência {referencia} - Informações para pagamento
+
+Obrigado por comprar em nossa loja!
+
+Seu pedido foi processado e será enviado assim que recebermos o pagamento.
+Sua opção de pagamento foi através do PagSeguro.
+
+Caso tenha tido algum problema para pagamento no site do PagSeguro, passamos abaixo as informações necessárias para conclusão do seu pagamento:
+
+:: Referência do pedido: {referencia}
+:: Número do pedido: {pedido}
+:: Valor total do seu pedido: {total}
+:: Link de sua compra no PagSeguro: {link}
+
+
+Para visualizar seu Pedido e baixar a fatura acesse "Histórico de Pedidos" na opção  "Minha Conta" em nosso site.
+
+
+{shop_name}

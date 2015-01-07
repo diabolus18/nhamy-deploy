@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Documentação Técnica</title>
+    <link rel="stylesheet" type="text/css" href="../css/fk_help.css" />
+</head>
+<body>
+
+	<div class="fk_cabec_help">
+		<img alt="Logo FokusFirst" src="logo.png">
+		<div>Configuração</div>
+	</div>
+	
+	<div class="fk_corpo_help">
+
+        <h1>Configuração no site do PagSeguro</h1>
+        <ul>
+            <li>
+                Entre em sua conta no PagSeguro;
+            </li>
+            <li>
+                Se não possuir um Token, crie;
+            </li>
+            <li>
+                Acesse a opção <b>Integrações</b> e depois <b>Página de redirecionamento</b>:
+            </li>
+            <ul>
+                <li>
+                    No item <b>B. Página de redirecionamento dinâmico</b>, marque <b>Ativado</b> em <b>Redirecionamento com o código da transação</b>;
+                </li>
+                <li>
+                    No campo <b>Escolha um nome para o parâmetro</b> digite <b>id</b> e clique em <b>Ativar</b>
+                </li>
+            </ul>
+            <li>
+                Acesse a opção <b>Integrações</b> e depois <b>Pagamentos via API</b>:
+            </li>
+            <ul>
+                <li>
+                    No item <b>Quero receber somente pagamentos via API</b>, marque <b>Ativado</b> e depois clique em <b>Salvar</b>.
+                </li>
+            </ul>
+        </ul>
+
+        <h1>Configuração do módulo</h1>
+        <ul>
+            Clique nas opções PagSeguro, Mensagens ou Opções diversas para que sejam mostrados os parâmetros conforme abaixo:
+
+            <h1>Email</h1>
+            <ul>
+                Informe o e-mail cadastrado em sua conta do PagSeguro.
+            </ul>
+
+            <h1>Token</h1>
+            <ul>
+                Informe o token gerado no site do PagSeguro.
+            </ul>
+
+            <h1>Expiração da url</h1>
+            <ul>
+                Coloque em segundos, o tempo que deseja que o PagSeguro mantenha o link para pagamento disponível ao cliente,
+                ex: 86400 é igual a 1 dia, 172800 é igual a 2 dias e daí por diante;
+            </ul>
+
+            <h1>Charset</h1>
+            <ul>
+                Informe se seu servidor utiliza ISO-8859-1 ou UTF-8. Normalmente deve ser escolhido UTF-8.
+                Se ao retornar ao seu site após pagamento no PagSeguro estiver ocorrendo "tela branca" altere o valor deste campo.
+            </ul>
+
+            <h1>Utilizar LightBox</h1>
+            <ul>
+                Marque essa opção para que a integração com o site do PagSeguro seja feita através de pop-up, sem sair da loja.
+            </ul>
+
+            <h1>Mensagens</h1>
+            <ul>
+                Conforme a situação, preencha o que deve ser mostrado ao cliente na página de agradecimento após efetuado o pagamento no site do PagSeguro;
+            </ul>
+
+            <h1>Link parcelamento</h1>
+            <ul>
+                Este campo deve conter o link que direciona para a calculadora de financiamento do PagSeguro. Caso não deseje mostrar esta opção
+                ao cliente (botão que aparece na escolha das formas de pagamentos), deixe o campo em branco;
+            </ul>
+
+            <h1>Enviar e-mail</h1>
+            <ul>
+                Marque se o módulo deve ou não enviar email ao cliente ao finalizar o pedido.
+                É aconselhável  manter Sim, pois caso ocorram problemas no redirecionamento ao PagSeguro o cliente poderá acessar o mesmo
+                através do link enviado no email;
+            </ul>
+
+            <h1>Mostrar coluna direita</h1>
+            <ul>
+                Marque esta opção se deseja que a coluna direita seja mostrada no layout de confirmação de escolha do PagSeguro como forma de
+                pagamento. Válido somente para Compras em 1 passo;
+            </ul>
+
+            <h1>Mostrar coluna esquerda</h1>
+            <ul>
+                Marque esta opção se deseja que a coluna esquerda seja mostrada no layout de confirmação de escolha do PagSeguro como forma de
+                pagamento. Válido somente para Compras em 1 passo;
+            </ul>
+
+            <h1>Alterar status do pedido quando receber notificação de Pagamento Aceito</h1>
+            <ul>
+                Marque se deseja que o módulo altere automaticamente o status do pedido quando receber notificação do PagSeguro sobre Pagamento Aceito;
+            </ul>
+
+            <h1>Alterar status do pedido quando receber notificação de Cancelamento</h1>
+            <ul>
+                Marque se deseja que o módulo altere automaticamente o status do pedido quando receber notificação do PagSeguro sobre Cancelamento
+                da transação;
+            </ul>
+
+            <h1>Manter dados de status na desinstalação do módulo</h1>
+            <ul>
+                Marque se deseja que os dados de status de pagamentos sejam preservados na desinstalação do módulo;
+            </ul>
+        </ul>
+
+
+
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<setting>
+<load_css_file>default</load_css_file>
+<bg_mode>wide_mode</bg_mode>
+<column>2_column_right</column>
+<column_class>grid_20(4),grid_4</column_class>
+<mp_text_color_normal>#000000</mp_text_color_normal>
+<mp_text_color_hover>#000000</mp_text_color_hover>
+<ms_text1_color_normal>#000000</ms_text1_color_normal>
+<ms_text1_color_hover>#000000</ms_text1_color_hover>
+</setting>
